@@ -1,0 +1,51 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-GLOBPARENT-1016905:
+    - '@nuxtjs/storybook > @storybook/addon-essentials > @storybook/addon-docs > @storybook/builder-webpack4 > @storybook/core-common > glob-base > glob-parent':
+        reason: None given
+        expires: '2021-05-01T07:44:42.040Z'
+    - nuxt > @nuxt/builder > @nuxt/webpack > webpack > watchpack > watchpack-chokidar2 > chokidar > glob-parent:
+        reason: None given
+        expires: '2021-05-01T07:44:42.041Z'
+    - '@nuxtjs/storybook > @storybook/addon-essentials > @storybook/addon-docs > @storybook/core > @storybook/core-server > cpy > globby > fast-glob > glob-parent':
+        reason: None given
+        expires: '2021-05-01T07:44:42.041Z'
+    - '@nuxtjs/storybook > @storybook/addon-essentials > @storybook/addon-docs > @storybook/builder-webpack4 > @storybook/core-common > webpack > watchpack > watchpack-chokidar2 > chokidar > glob-parent':
+        reason: None given
+        expires: '2021-05-01T07:44:42.041Z'
+  SNYK-JS-HOSTEDGITINFO-1088355:
+    - '@nuxtjs/storybook > @storybook/addon-essentials > @storybook/addon-docs > @storybook/core > @storybook/core-server > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info':
+        reason: None given
+        expires: '2021-05-01T07:44:42.041Z'
+  SNYK-JS-ISSVG-1085627:
+    - nuxt > @nuxt/builder > @nuxt/webpack > cssnano > cssnano-preset-default > postcss-svgo > is-svg:
+        reason: None given
+        expires: '2021-05-01T07:44:42.041Z'
+  SNYK-JS-LODASHTEMPLATE-1088054:
+    - '@nuxtjs/pwa > lodash.template':
+        reason: None given
+        expires: '2021-05-01T07:44:42.041Z'
+    - nuxt > @nuxt/builder > @nuxt/webpack > postcss-preset-env > postcss-initial > lodash.template:
+        reason: None given
+        expires: '2021-05-01T07:44:42.041Z'
+    - nuxt > @nuxt/core > @nuxt/server > @nuxt/vue-renderer > vue-server-renderer > lodash.template:
+        reason: None given
+        expires: '2021-05-01T07:44:42.041Z'
+  SNYK-JS-SSRI-1085630:
+    - nuxt > @nuxt/builder > @nuxt/webpack > webpack > terser-webpack-plugin > cacache > ssri:
+        reason: None given
+        expires: '2021-05-01T07:44:42.041Z'
+    - '@nuxtjs/storybook > @storybook/addon-essentials > @storybook/addon-docs > @storybook/builder-webpack4 > @storybook/core-common > webpack > terser-webpack-plugin > cacache > ssri':
+        reason: None given
+        expires: '2021-05-01T07:44:42.041Z'
+  SNYK-JS-TRIM-1017038:
+    - '@nuxtjs/storybook > @storybook/addon-essentials > @storybook/addon-docs > @mdx-js/loader > @mdx-js/mdx > remark-mdx > remark-parse > trim':
+        reason: None given
+        expires: '2021-05-01T07:44:42.041Z'
+  SNYK-JS-USERAGENT-174737:
+    - nuxt-speedkit > browserslist-useragent-regexp > useragent:
+        reason: None given
+        expires: '2021-05-01T07:44:42.041Z'
+patch: {}
